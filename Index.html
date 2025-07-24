@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Web Profesional JR</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="Main style.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="loader">
+        <div class="loader-spinner"></div>
+    </div>
+    
+    <div class="cursor"></div>
+    
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">JR</div>
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-link">Sobre mí</a></li>
+                <li><a href="#projects" class="nav-link">Proyectos</a></li>
+                <li><a href="#contact" class="nav-link">Contacto</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+        
+        <div class="hero">
+            <div class="profile-container">
+                <div class="profile-frame">
+                    <img src="Recursos de la pagina/Perfil de GitHub.jpg" alt="Jorge Rossell" class="profile-img">
+                </div>
+            </div>
+            <div class="hero-content">
+                <h1 class="title">JORGE <span class="highlight">ROSSELL</span></h1>
+                <p class="subtitle">Desarrollador Full Stack & Diseñador</p>
+                <div class="scroll-hint">
+                    <span>Scroll</span>
+                    <div class="line"></div>
+                </div>
+            </div>
+        </div>
+        <canvas id="particles"></canvas>
+    </header>
+
+    <main>
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-number">01</span>
+                    <h2>Sobre mí</h2>
+                    <div class="divider"></div>
+                </div>
+                
+                <div class="about-content">
+                    <div class="about-text">
+                        <p class="lead">Técnico superior en informática graduado del <span class="highlight-text">Instituto Universitario de Tecnología Juan Pablo Pérez Alfonso (IUTEPAL)</span> con experiencia en desarrollo de software y diseño web.</p>
+                        <div class="about-details">
+                            <p>Ofrezco servicios profesionales como programador, desarrollador de software y diseñador de páginas web. Mis soluciones combinan funcionalidad técnica con diseño atractivo para crear experiencias digitales completas.</p>
+                            <p>Para los interesados en mis servicios, pueden contactarme a través de WhatsApp o correo electrónico para solicitar referencias y cotizaciones.</p>
+                        </div>
+                        <a href="Imagenes del portafolio/Curriculum.pdf" download class="btn btn-primary">
+                            <i class="fas fa-download"></i> Descargar CV
+                        </a>
+                    </div>
+                    <div class="skills">
+                        <div class="skills-chart">
+                            <div class="skill-item" data-percent="90">
+                                <div class="skill-info">
+                                    <span>Especialidades en el desarrollo web</span>
+                                    <span class="skill-percent">0%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-percent="85">
+                                <div class="skill-info">
+                                    <span>Especialidades en el diseño grafico</span>
+                                    <span class="skill-percent">0%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-percent="80">
+                                <div class="skill-info">
+                                    <span>Especialiadad en el desarrollo de software</span>
+                                    <span class="skill-percent">0%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-number">02</span>
+                    <h2>Mis Proyectos</h2>
+                    <div class="divider"></div>
+                </div>
+                
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-media">
+                            <div class="project-image">
+                                <img src="https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Software Development">
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="link-icon"><i class="fas fa-eye"></i></a>
+                                <a href="#" class="link-icon"><i class="fas fa-code"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Software Development</h3>
+                            <p>Proyectos de desarrollo de software personalizados para diversas necesidades empresariales.</p>
+                            <div class="project-tags">
+                                <span>JavaScript</span>
+                                <span>React</span>
+                                <span>Node.js</span>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="project-card">
+                        <div class="project-media">
+                            <div class="project-image">
+                                <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1528&q=80" alt="Web Design">
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="link-icon"><i class="fas fa-eye"></i></a>
+                                <a href="#" class="link-icon"><i class="fas fa-code"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Web Design</h3>
+                            <p>Diseño y desarrollo de páginas web modernas, responsivas y optimizadas.</p>
+                            <div class="project-tags">
+                                <span>HTML/CSS</span>
+                                <span>JavaScript</span>
+                                <span>UI/UX</span>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="project-card">
+                        <div class="project-media">
+                            <div class="project-image">
+                                <img src="https://www.comunicare.es/wp-content/uploads/2021/12/Diseno-Grafico-en-A-Coruna.jpg" alt="Graphic Design">
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="link-icon"><i class="fas fa-eye"></i></a>
+                                <a href="#" class="link-icon"><i class="fas fa-code"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Graphic Design</h3>
+                            <p>Diseño gráfico profesional para branding, marketing y comunicación visual.</p>
+                            <div class="project-tags">
+                                <span>Photoshop</span>
+                                <span>Illustrator</span>
+                                <span>Branding</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-number">03</span>
+                    <h2>Contacto</h2>
+                    <div class="divider"></div>
+                </div>
+                
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="info-text">
+                                <h4>Teléfono</h4>
+                                <a href="tel:+584127401944">+58 412 7401944</a>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="info-text">
+                                <h4>Email</h4>
+                                <a href="mailto:jorgerossellpestano18@gmail.com">jorgerossellpestano18@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div class="info-text">
+                                <h4>GitHub</h4>
+                                <a href="https://github.com/jorgerossell" target="_blank">github.com/jorgerossell</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" placeholder="Asunto">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Mensaje" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Enviar Mensaje
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">JR</div>
+                    <p>Desarrollo soluciones digitales a medida con un enfoque en calidad y diseño.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Enlaces</h4>
+                    <ul>
+                        <li><a href="#about">Sobre mí</a></li>
+                        <li><a href="#projects">Proyectos</a></li>
+                        <li><a href="#contact">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Redes Sociales</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="https://github.com/jorgerossell" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> Jorge Rossell. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/584127401944" class="whatsapp-btn" id="whatsapp-btn" aria-label="Contactar por WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <button class="scroll-top-btn" id="scrollTopBtn" aria-label="Volver arriba">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="Main script.js"></script>
+</body>
+</html>
